@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    padding: 50px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+p{
+    font-size: 18px;
+}
+button{
+    padding: 10px;
+    font-size: 18px;
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
