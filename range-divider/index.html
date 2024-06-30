@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="result" style="display: flex;gap: 5px;">
+            <p id="result1">0 </p>
+            <p>-</p>
+            <p id="result2"> 100</p>
+        </div>
+        <div class="container">
+            <input type="range" min="0" max="100" value="0" id="slider-1" oninput="slideOne()">
+            <input type="range" min="0" max="100" value="100" id="slider-2" oninput="slideTwo()">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
