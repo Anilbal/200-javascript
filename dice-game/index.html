@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dice">
+            <span class="value1 active">
+                <i class="fa-solid fa-circle"></i>
+            </span>
+            <span  class="value2 inactive">
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+            </span>
+            <span  class="value3 inactive">
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+            </span>
+            <span  class="value4 inactive">
+                <div style="display: flex; align-items: center; gap: 20px;justify-content: center;">
+                    <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+                </div>
+                <div style="display: flex; align-items: center; gap: 20px;justify-content: center;">
+                    <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+                </div>
+            </span>
+            <span class="value5 inactive">
+                <div style="display: flex; align-items: center; gap: 20px;justify-content: center;">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <i class="fa-solid fa-circle" style="margin-left: 20px;"></i>
+                <div style="display: flex; align-items: center; gap: 20px;justify-content: center;">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+            </span>
+            <span class="value6 inactive">
+                <div style="display: flex; align-items: center; gap: 20px;justify-content: center;">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <div style="display: flex; align-items: center; gap: 20px;justify-content: center;">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <div style="display: flex; align-items: center; gap: 20px;justify-content: center;">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+            </span>
+        </div>
+        <div id="result"></div>
+        <button id="btn">Roll</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
