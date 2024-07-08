@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 1px solid rgb(88, 85, 85);
+    border-radius: 5px;
+    width: 700px;
+    padding: 20px;
+    position: relative;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /* display: none; */
+}
+.search{
+    display: flex;
+    gap: 20px;
+}
+.search input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 400px;
+    text-transform: capitalize;
+}
+.search input::placeholder{
+    color: black;
+}
+.search button{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 17px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.search button:hover{
+    background-color: #212121;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+img{
+    height: 200px;
+    width: 250px;
+}
+.title{
+    width: 100%;
+    background-color: orange;
+    padding: 20px;
+    color: #fff;
+    margin-top: -40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.details ul{
+    display: grid;
+    grid-template-columns:auto auto;
+    padding: 0px 20px;
+    gap: 25px;
+}
+#view{
+    padding: 10px;
+    width: 200px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 17px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+#view:hover{
+    color: gray;
+}
+.bottom{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+.bottom button{
+    width: 50px;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 90%;
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.bottom button:hover{
+    color: gray;
+}
+.bottom ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    font-size: 14px;
+}
+.hide{
+    display: none;
+}
