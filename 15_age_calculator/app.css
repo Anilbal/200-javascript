@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #adb5bd;
+}
+.container{
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: #212121;
+    color: #fff;
+}
+.date{
+    display: flex;
+    gap: 30px;
+}
+.date input{
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.date button{
+    padding: 10px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+.date button:hover{
+    color: gray;
+}
+
+.calculated{
+    display: flex;
+    gap: 20px;
+}
+.time{
+    border: 1px solid white;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
