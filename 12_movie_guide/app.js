@@ -7,7 +7,7 @@ document.getElementById("btn").addEventListener("click",async ()=>{
     await fetch(url)
     .then(data=>data.json())
     .then(data=>displayMovies(data.results[0]))
-    .then(data=>console.log(data.results[0]))
+    // .then(data=>console.log(data.results[0]))
     .catch(error=>console.log(error))
 })
 
@@ -24,7 +24,7 @@ function displayMovies(movie){
 
                         ${rating}
                     </p>
-                    <p>2014 169min</p>
+                    <p>${movie.release_date}</p>
                     <div class="category">
                         <div class="single-category">Adults only: ${movie.adult}</div>
                         <div class="single-category">Total votes: ${movie.vote_count}</div>
