@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.user{
+    display: flex;
+    gap: 100px;
+}
+.budgets, .expenses{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover{
+    color: gray;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.top{
+    display: flex;
+    gap: 80px;
+    /* border: 1px solid black; */
+    padding: 40px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#lists{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+.single-list{
+    display: flex;
+    gap: 90px;
+}
+#edit, #delete{
+    border:none;
+    padding: 4px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+#edit{
+    background-color: green;
+}
+#delete{
+    background-color: red;
+}

@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="user">
+            <div class="budgets">
+                <h2>Budget</h2>
+                <input type="text" id="amount" placeholder="Enter Budget Amount">
+                <button id="budget">Set budget</button>
+            </div>
+            <div class="expenses">
+                <h2>Expenses</h2>
+                <input type="text" id="title" placeholder="Enter title of Product">
+                <input type="text" id="cost" placeholder="Enter cost of product">
+                <button id="expense">Check Amount</button>
+            </div>
+        </div>
+        <div class="result">
+            <div class="top">
+                <div class="top-child">
+                    <h2>Total Budget</h2>
+                    <p id="total-budget"></p>
+                </div>
+                <div class="top-child">
+                    <h2>Expenses</h2>
+                    <p id="total-expense"></p>
+                </div>
+                <div class="top-child">
+                    <h2>Balance</h2>
+                    <p id="total-balance"></p>
+                </div>
+            </div>
+            <div class="final">
+                <h2>Expenses List</h2>
+                <div id="lists">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
