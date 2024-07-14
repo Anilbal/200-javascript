@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <div class="input-container">
+            <label for="amount">Amount</label>
+            <input type="text" id="amount" placeholder="1">
+        </div>
+        <div class="select-container">
+            <select name="from-cur" id="from-cur" class="select-field">
+                <option value="npr">Npr</option>
+                <option value="inr">Ind</option>
+                <option value="euro">Euro</option>
+                <option value="dollar">Dollar</option>
+            </select>
+            <select name="to-cur" id="to-cur" class="select-field">
+                <option value="npr">Npr</option>
+                <option value="inr">Ind</option>
+                <option value="euro">Euro</option>
+                <option value="dollar">Dollar</option>
+            </select>
+        </div>
+        <button id="convert">Convert</button>
+        <div class="result">
+            <p>1npr is equal to 0.004 inr </p>
+        </div>
+    </div>
+</body>
+</html>
