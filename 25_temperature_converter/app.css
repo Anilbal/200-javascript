@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    gap: 40px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first input{
+    padding: 4px 10px;
+}
